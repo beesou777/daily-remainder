@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Set Reminder</title>
+  <link rel="stylesheet" href="/assets/styles/styles.css">
+</head>
+<body>
+  <div class="popup-container">
+    <h2>Set Reminder</h2>
+    <form id="reminderForm">
+      <label for="date">Date</label>
+      <input type="date" id="date" required />
+
+      <label for="time">Time</label>
+      <input type="time" id="time" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" placeholder="Reminder message" required></textarea>
+
+      <button type="submit">Set Reminder</button>
+    </form>
+  </div>
+  <script src="/script/popup.js"></script>
+</body>
+</html>

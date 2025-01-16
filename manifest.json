@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Reminder App",
+    "version": "1.0",
+    "description": "Set reminders and get notified at the selected time.",
+    "permissions": ["notifications", "alarms", "storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
